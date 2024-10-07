@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Consulta</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=WXYYC5MvhY8-LbWsWn0tQZh_yJ35ZWJ0R-BIQltJ-m1mjhkEQl47fr6K-vWG7IVyMhTiC5FlmrMoK1npyNfH0r8MMeYXj8sw7K2EKdcNRQWCRuWLqvQsONQF4eD9WYCRmSbiLm1g-imB97irsywiSnuTzM4lc09JYjJ76UrCaGMLMd5a0_OAXVaQXNa0XSMlB8VeTcWkgQxUi2yPi1Ly65jJ6Q4NqBoYkY0hDSe0c4rFIPallp3wcr0915YR4EJYngtLqNP6PeA6tlOPnjCSKE8EJjEGksnOy1ouUtWUEn2AZ8gzP6166FCZVb0iQYgostv6iiDMl0nVVRWlHaEQuuafZb6pgNjXef_bNkee2fPdtJhLh1pdipTBpAlGCaMpJP7oGeXfrKB00wVxaLnj39eHAFn1ZR3wFSvDKIX29UG5mgy1CoT_ohFndIJqUhjHphhHQXzEhcJDYwtpwSzn1L2VaRCuSfyFJIVrlLRF2X7Aao9HRdDBTE6ekLm1ZtkydCjnzvrjR-H4laMeRFTNpiHF5HM54J2QcyOJ0Gw3Pl8Vzk5CBKdlqDkwY7TF4KS3OXP5nS_BI1uQOafTPJO4V_3x8zq4PDVHFKe4s9eHOAkrGzrkjuddZRZM0fdQo09etUNe1oMsUuPpx2x_9RNqbuUnZjnd5qBZjM_1tFU7mUC1uJXFxBD-NhOwo6TC4lMdw3LMtBS7JlayvNEZQzD2UMH1ua2vFSAy2zv4JJsvUSDdeLl-FE-zCR5auIKrRCvrRMLIGM_a6hz7dyk6hnRsT3MjgyR-BoOsV0WZxcwvNKivxA3r4jRspISiFzDv0ae2IAsO1ufL8ifEtbiiBaPbHO3YQQmWjmkJ_4pLwqLfC1RPfNc6EBt8FOw_T4KgW6kUN3r238dzFlxStlbasRSZXOnmNHFSAwt9nVfEw0OkJatc2gt-LqXsrnZMApQ-8Xym4BCZvXlunOwCrfFVEd-QWXB6jrs_K4y_pGPMgyPQ-NckB2iNEy-gQobGH6Dm6QzoMX74KZYbp-WpC3E1K370KlJ74XLTt9av59vVQ_qG8Qwsxfxg2KM73NwN50QiucLss5Z18uhH-jjJu3zMDeCM1g9Zlx1aVopGzdblm67d66pBASkthQ0oHb8JAtDLgHgUmR2Uep-ubIEqgZFCn6RmC8iv5roI-y2n0McSxPtanFIL_7f7tCWlEW25zH7nLfzlPzNV00TCGQ8y8ALpYuiDFmSaLyVT-i4LA1FCFG2bCcvd3CqSacD1B4heXoJ77i9KTCG_xlsO4zJwSQ1qhyE33beDInwYx8Osl-pdpd-UfB8mMJd20vwf-Or88bLwHnEtbZmKH_fykYkwSwWmNfi5gx3JlODL5mGvv-CT6OOCrIY" charset="UTF-8"></script>
+        <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9mYXRlY3NwZ292LnNoYXJlcG9pbnQuY29tL3NpdGVzL1NlY3Rpb25fSVNXMDM4LkE4OTIuTS4xMzkuMTExLjIwMjQxL19sYXlvdXRzLzE1L2Rvd25sb2FkLmFzcHg_VW5pcXVlSWQ9OWY2MmJjZTEtZDA1ZC00OGVkLWExYzQtNzg3NWI2YmE4ZGY0JlRyYW5zbGF0ZT1mYWxzZSZ0ZW1wYXV0aD12MS5leUp6YVhSbGFXUWlPaUkzWVROaE9Ea3hOeTFpWVRjMUxUUTROR1l0T0RnNVlTMDRNbVE1WkRNM01qUTRZMkVpTENKaGNIQmZaR2x6Y0d4aGVXNWhiV1VpT2lKTmFXTnliM052Wm5RZ1ZHVmhiWE1nVjJWaUlFTnNhV1Z1ZENJc0ltRndjR2xrSWpvaU5XVXpZMlUyWXpBdE1tSXhaaTAwTWpnMUxUaGtOR0l0TnpWbFpUYzROemczTXpRMklpd2lZWFZrSWpvaU1EQXdNREF3TURNdE1EQXdNQzB3Wm1ZeExXTmxNREF0TURBd01EQXdNREF3TURBd0wyWmhkR1ZqYzNCbmIzWXVjMmhoY21Wd2IybHVkQzVqYjIxQVkyWTNNbVV5WW1RdE4yRXlZaTAwTnpnekxXSmtaV0l0TXpsa05UZGlNRGRtTnpabUlpd2laWGh3SWpvaU1UY3lOekkyTkRjek15SjkuQ2dvS0JITnVhV1FTQWpZMEVnc0lvdGVLNjZiV3JqMFFCUm9NTkRBdU1USTJMalExTGpJM0tpeHRPWEZaVGswemNqZGlibkp5UzJSd1QwazFPU3RyVVhBeGFtNTRlakUzTjNaVGNHdFJaR1JRWm5CVlBUQ2pBVGdCUWhDaFU2OWlDeUFBWUdTcGxzUllRaUpxU2hCb1lYTm9aV1J3Y205dlpuUnZhMlZ1Y2lrd2FDNW1mRzFsYldKbGNuTm9hWEI4TVRBd016SXdNREl4TldVMk0yTXhOVUJzYVhabExtTnZiWG9CTW9JQkVnbTk0bkxQSzNxRFJ4Rzk2em5WZXdmM2I1SUJDRXBGUmtWU1UwOU9tZ0VFVEVsTlFhSUJIMnBsWm1WeWMyOXVMbXhwYldFeE1FQm1ZWFJsWXk1emNDNW5iM1l1WW5LcUFSQXhNREF6TWpBd01qRTFSVFl6UXpFMXNnRW9ZV3hzWm1sc1pYTXVkM0pwZEdVZ1ozSnZkWEF1Y21WaFpDQmhiR3h6YVhSbGN5NTNjbWwwWmNnQkFRLndTN2pTN2tWZDdKOXdhWmpJZzJycnZwdHhlU0Z4MlloVFp3Wm5FbzZLa28mQXBpVmVyc2lvbj0yLjA" />
+        <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=tWXHBmOO3bcrm2sOGXAD9BhWEXgzhvYhPvpQ-lZXxwuLiC2_PkEvkCm-uRxwFLMIXzjcZJliQ8xYUIszo2DGVQiRKnWayDBs8LvHnPo3uZ8-sW1B4jmNoXCFliC4WVbN8K35Y4Dpb37401sXFwDO79KgNHrGtw_x2Qo0yMw4nhlsMF8HH6o_eD_J8UytUH6BLx5sLxlDUOvK0qOs0l3jRDj4M272-yHaFFaPHzjNsDkMSiA28io1B4mNa_pdAyQ7gdcpndYFZZU1hvlu_FJsbyDExcnyo1Wo8TQ2ulX4OxIZmihFw9RydnKH0OjWSsNV6V1GIQy9Sg-5E6Z83E-fiZRGtiN0756mdtHIb01szOH7QgUGEoYIMPLxya_fOCVAAtWYCUE0FCuhklNr06ivrwohmxspAmsUOa1iJWwqkM5ipst-ieqCfAs0EIglP8nTziLfvg4uwNnUJhxego1oFky7SdnRRgU9nlmP1DJYzs_2pC5ivd_Z7FtuHo_R292f81FxaCn_XEk-WpcR2zpCrBuU4jj6GIYMa5i1yc_PrVc_U9S3r_SLEHVsnMha6FdY29t6VrgliRrjrAukuTPuA0GHVgERjiiP5PUV5tjRBYFZKgDh3MVBbaV3sErr3X_VA5kK0RA95co531o4PauX4s_YbDWMFGTMNUyhA2hhyPB1kGEa1yOOLYmKRzqXQMP4mhonHsQARwxgJDWqcVhCr1CF2Gqg1vnbOVnaUdCEAuZmTy1JHAx-WcDC56C17bNr7xASSh17ba4X2_3wBAgdjHLdwDN8ZS4XbcQTyWmBniSQJMQ7SUO8qmbe2RqWPqOvgCiqWpipQFmGl1R5jJJdF5B3thUCUHWGLPjH0SkhHg6vSbRxrGlhIQhjeaUaw2zsLgQtbhRosnmn5TsdW31QR1EVBk-TNfzA2QD3iOTQoVTZrUepPX4qhzU138w2dzQejhVXQ56LtInlcO-afi4pXdDn3pUR7rsFKgwPXLaEad5e-gVrKTC0xzH_UNVkHvZCRFd5NSmznHc0aUhGoCKotQiSO9-UE0rz7HYVK-FlVfouZVtBEXj7LHtYwW_m4F2FtLO344SyWrOMQJZ6zbSoU65Rw1YI-2YbICXT2GUfpeK2fSPPMP_3SCcEOYIYOapy85FFLKxL8T8bZXdurHUI1JvKJNYofLPeZXmJ5e1RxSWkUNbPBnVUDDmJUH9vJeq3XsOE_limmMkbsTwd_BRqDdaBHRBswFB9Pj4dV_vabfJFqoAzUHyeyHzzx49M1p7FpbBwNNkJ7wmnucmyCkc1gfvuh9Wl0YgP39kf1_Q2udDCcCcgodTIGziqJ6gb0DPRTC4FDacwyKuBKj1m3dQSfQ3QfgS7AtQZvYoFOiP92mvEWHMyRMETXGT-ZPxAnvryaDAQ_e5n5qnNcPIGz917RUiBzg9kYF6o3jzNACKPE5vwAHL1opUmKwvTJ6pR7fqPLH7dwyAtggTl7t4QMYlbPsMznXM1rsulRBH_pnwp4-iSKeDH-AxZP5Z1lLb0F-Wm9G8ofbHHyCVBFrW11PzX_eGAB7jwCIpbKUCwa-_ctu3C_ocx58L0Zpv3UEF3xv6yVquYQkKfBqzSZl1AeOtYp2CcTJnZdSdIfJPuMdt3h3b4mjFohL_9NnwIM5lQx-b87eUN2Bv0OlwIsykMqlU-l0Mj8bFtOBb9HqEssC0NX5CywjhDNZx2xfZb9Lf14TwPSXKQIcRYTLl0qLRftediZEn_IqM-PBwUQ1jnVXntU9MfxHxWgLVMAahZhFeg6nnjqXqYVnnx2yNE2lr_ulW2uXHcK0aKOduar8XTc6gO1z8" charset="UTF-8"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Consulta</h1>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                        <th>Origem</th>
+                        <th>Data de Contato</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each posts}}
+                    {{#dataValues}}
+                    <tr>
+                        <td>{{nome}}</td>
+                        <td>{{telefone}}</td>
+                        <td>{{origem}}</td>
+                        <td>{{data_contato}}</td>
+                        <td>{{cidade}}</td>
+                        <td>{{estado}}</td>
+                        <td>
+                            <a href="/editar/{{id}}"><button class="btn btn-primary" h>Editar</button></a>
+                            <a href="/excluir/{{id}}"><button class="btn btn-danger">Excluir</button></a>
+                        </td>
+                    </tr>
+                    {{/dataValues}}
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
